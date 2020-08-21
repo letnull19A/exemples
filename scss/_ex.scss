@@ -1,0 +1,39 @@
+@mixin adaptive {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+@mixin transition($time) {
+    transition: $time;
+    -o-transition: $time;
+    -moz-transition: $time;
+    -webkit-transition: $time;
+}
+
+@keyframes anim-0 
+{
+    0% 
+    {
+        transform: translate(0, 0);
+    }
+    50% 
+    {
+        transform: translate(0, -10px);
+    }
+    100% 
+    {
+        transform: translate(0, 10px);
+    }
+}
+
+
+.h-100 
+{
+    height: 100vh;
+}
+
+.z-index-999 
+{
+    z-index: 999;
+}

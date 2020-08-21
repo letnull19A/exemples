@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@-webkit-keyframes anim-0 {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, -10px);
+            transform: translate(0, -10px);
+  }
+  100% {
+    -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px);
+  }
+}
+
+@keyframes anim-0 {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, -10px);
+            transform: translate(0, -10px);
+  }
+  100% {
+    -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px);
+  }
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.z-index-999 {
+  z-index: 999;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-0 {
+  background-image: url("./../images/pexels-cottonbro-5054355.jpg");
+}
+
+.image-1 {
+  background-image: url("./../images/pexels-pixabay-248533.jpg");
+}
+
+.carusel-type-d {
+  height: 350px;
+}
+
+.image-card-height {
+  height: 230px;
+}
+
+.bg-alpha {
+  background-color: rgba(0, 0, 0, 0.23);
+}
+
+.arrow {
+  font-size: 45px;
+  -webkit-animation: 2s linear 1s infinite alternate anim-0;
+          animation: 2s linear 1s infinite alternate anim-0;
+}
+
+li.animation {
+  color: #8d8d8d;
+  cursor: pointer;
+  transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+li.animation:hover {
+  color: #1d1d1d;
+  transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.footer {
+  background-color: #1c1c1c;
+}
+/*# sourceMappingURL=main.css.map */

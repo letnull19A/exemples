@@ -1,0 +1,56 @@
+@import "default";
+@import "ex";
+
+.background 
+{
+    @include adaptive;
+}
+
+.image-0 
+{
+    background-image: url("./../images/pexels-cottonbro-5054355.jpg");
+}
+
+.image-1 
+{
+    background-image: url("./../images/pexels-pixabay-248533.jpg");
+}
+
+.carusel-type-d 
+{
+    height: 350px;
+}
+
+.image-card-height 
+{
+    height: 230px;
+}
+
+.bg-alpha 
+{
+    background-color: rgba(0, 0, 0, .23)
+}
+
+.arrow 
+{
+    font-size: 45px;
+    animation: 2s linear 1s infinite alternate anim-0;
+}
+
+li.animation
+{
+    color: #8d8d8d;
+    cursor: pointer;
+    @include transition(.5s);
+    &:hover 
+    {
+        color: #1d1d1d;
+        @include transition(.5s);
+        transform: scale(1.5);
+    }
+}
+
+.footer 
+{
+    background-color: #1c1c1c
+}
